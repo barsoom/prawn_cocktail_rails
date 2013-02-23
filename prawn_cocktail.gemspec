@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = PrawnCocktailRails::VERSION
   gem.authors       = ["Henrik Nyh"]
   gem.email         = ["henrik@barsoom.se"]
-  gem.summary       = "PrawnCocktail on Rails."
+  gem.summary       = "Simple documents, templates and helpers on top of Prawn. In Ruby on Rails."
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
