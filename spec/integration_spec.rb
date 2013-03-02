@@ -6,10 +6,10 @@ require "rails/test_help"
 require "pdf/inspector"
 require "minitest/pride"
 
-class MyTest < ActionController::TestCase
+class IntegrationTest < ActionController::TestCase
   tests DummyController
 
-  def test_it
+  def test_integration
     get :show
     assert_header "Content-Type", "application/pdf"
     assert_header "Content-Disposition", 'attachment; filename="test.pdf"'
