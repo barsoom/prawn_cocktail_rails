@@ -6,5 +6,3 @@ require "prawn_cocktail"
 class ActionController::Base
   include PrawnCocktailRails::Controller
 end
-
-PrawnCocktail.template_root = "app/views/documents"
