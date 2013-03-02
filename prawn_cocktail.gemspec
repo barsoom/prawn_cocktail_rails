@@ -18,4 +18,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "prawn_cocktail", ">=0.4.0"
   gem.add_dependency "rails"
+
+  gem.add_development_dependency "pdf-inspector"
 end

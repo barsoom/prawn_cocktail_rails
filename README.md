@@ -2,12 +2,6 @@
 
 Ruby on Rails integration for [PrawnCocktail](http://github.com/barsoom/prawn_cocktail).
 
-NOTE: Work in progress; well used but untested.
-
-## TODO
-
-* Tests
-
 ## Usage
 
 Please see [PrawnCocktail](http://github.com/barsoom/prawn_cocktail).
