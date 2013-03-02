@@ -1,5 +1,7 @@
 # PrawnCocktailRails
 
+[![Build status](https://secure.travis-ci.org/barsoom/prawn_cocktail_rails.png)](https://travis-ci.org/#!/barsoom/prawn_cocktail_rails/builds)
+
 Ruby on Rails integration for [PrawnCocktail](http://github.com/barsoom/prawn_cocktail).
 
 ## Usage
