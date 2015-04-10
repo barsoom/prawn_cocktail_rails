@@ -41,6 +41,14 @@ And then execute:
 
 As this library depends on `prawn_cocktail`, you only need to list this one to get both.
 
+### Mime types
+
+You may need to register the pdf mimetype in `config/initializers/mime_types.rb`, for older versions of rails.
+
+```ruby
+Mime::Type.register "application/pdf", :pdf
+```
+
 ## License
 
 Copyright (c) 2013 [Barsoom AB](http://barsoom.se)
