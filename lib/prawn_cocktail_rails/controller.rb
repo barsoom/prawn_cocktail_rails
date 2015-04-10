@@ -5,7 +5,7 @@ module PrawnCocktailRails
     def send_pdf(document)
       send_data(
         document.render,
-        type: "application/pdf",
+        type: :pdf,
         disposition: "attachment",
         filename: document.filename
       )
