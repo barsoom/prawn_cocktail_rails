@@ -2,11 +2,13 @@ module PrawnCocktailRails
   module Controller
     private
 
-    def send_pdf(document)
+    def send_pdf(document, opts = {})
+      disposition = opts.fetch(:disposition, "attachment")
+
       send_data(
         document.render,
         type: :pdf,
-        disposition: "attachment",
+        disposition: disposition,
         filename: document.filename
       )
     end

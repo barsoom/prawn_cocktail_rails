@@ -20,6 +20,7 @@ class InvoicesController < ApplicationController
 end
 ```
 
+You can change disposition with `send_pdf(document, disposition: "inline")`, without the option it will default to `"attachment"`.
 
 It configures PrawnCocktail to look for its views in `app/views/documents`.
 
