@@ -7,7 +7,7 @@ module PrawnCocktailRails
         document.render,
         type: :pdf,
         disposition: disposition,
-        filename: document.filename
+        filename: document.filename,
       )
     end
   end
