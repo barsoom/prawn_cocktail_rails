@@ -20,9 +20,11 @@ class InvoicesController < ApplicationController
 end
 ```
 
-You can change disposition with `send_pdf(document, disposition: "inline")`, without the option it will default to `"attachment"`.
+The default [disposition](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Disposition) is `"attachment"`, meaning it should be downloaded rather than opened inline in the browser.
 
-It configures PrawnCocktail to look for its views in `app/views/documents`.
+You can change disposition to `"inline"` with `send_pdf(document, disposition: "inline")`.
+
+PrawnCocktailRails configures PrawnCocktail to look for its views in `app/views/documents`.
 
 It also adds `app/documents/helpers` to the Rails autoload path so you can put your PrawnCocktail helpers there.
 
