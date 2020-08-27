@@ -12,7 +12,7 @@ class IntegrationTest < ActionController::TestCase
   def test_integration
     get :show
     assert_header "Content-Type", "application/pdf"
-    assert_match %r{attachment; filename="test.pdf"}, response.headers["Content-Disposition"]
+    assert_match %r{attachment; filename="test\.pdf"}, response.headers["Content-Disposition"]
     assert_pdf_strings [
       "Helper works.",
       "Message: test."
