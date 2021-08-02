@@ -1,5 +1,7 @@
 # PrawnCocktailRails
 
+[![Ruby CI](https://github.com/barsoom/prawn_cocktail_rails/actions/workflows/ci.yml/badge.svg)](https://github.com/barsoom/prawn_cocktail_rails/actions/workflows/ci.yml)
+
 Ruby on Rails integration for [PrawnCocktail](http://github.com/barsoom/prawn_cocktail).
 
 ## Usage
