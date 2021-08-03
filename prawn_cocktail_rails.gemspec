@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'prawn_cocktail_rails/version'
+require "prawn_cocktail_rails/version"
 
 Gem::Specification.new do |gem|
   gem.name          = "prawn_cocktail_rails"
