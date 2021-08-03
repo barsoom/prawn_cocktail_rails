@@ -15,7 +15,7 @@ class IntegrationTest < ActionController::TestCase
     assert_match %r{attachment; filename="test\.pdf"}, response.headers["Content-Disposition"]
     assert_pdf_strings [
       "Helper works.",
-      "Message: test."
+      "Message: test.",
     ]
   end
 end
