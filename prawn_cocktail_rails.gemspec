@@ -13,7 +13,6 @@ Gem::Specification.new do |gem|
   gem.metadata      = { "rubygems_mfa_required" => "true" }
 
   gem.files         = `git ls-files`.split($/)
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = [ "lib" ]
 
   gem.add_dependency "prawn_cocktail", ">=0.4.0"
