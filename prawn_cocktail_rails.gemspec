@@ -10,6 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = [ "henrik@barsoom.se" ]
   gem.summary       = "Simple documents, templates and helpers on top of Prawn. In Ruby on Rails."
   gem.homepage      = ""
+  gem.metadata      = { "rubygems_mfa_required" => "true" }
 
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
